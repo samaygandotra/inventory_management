@@ -1,0 +1,87 @@
+.ItemDetail {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ItemDetail-back {
+  background: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.ItemDetail-back:hover {
+  background: #5a6268;
+}
+
+.ItemDetail-header {
+  margin-bottom: 30px;
+}
+
+.ItemDetail-header h2 {
+  margin-top: 0;
+}
+
+.ItemDetail-info {
+  margin: 15px 0;
+}
+
+.ItemDetail-info p {
+  margin: 5px 0;
+}
+
+.ItemDetail-movements {
+  margin-top: 30px;
+}
+
+.ItemDetail-movements table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.ItemDetail-movements th,
+.ItemDetail-movements td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ItemDetail-movements th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.movement-type-in {
+  color: #28a745;
+  font-weight: 600;
+}
+
+.movement-type-out {
+  color: #dc3545;
+  font-weight: 600;
+}
+
+.movement-type-adjustment {
+  color: #ffc107;
+  font-weight: 600;
+}
+
+.positive {
+  color: #28a745;
+}
+
+.negative {
+  color: #dc3545;
+}
+
+.low-stock {
+  color: #dc3545;
+  font-weight: 600;
+}
+

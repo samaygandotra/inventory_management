@@ -1,0 +1,41 @@
+.ItemList {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ItemList h2 {
+  margin-top: 0;
+}
+
+.ItemList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ItemList th,
+.ItemList td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.ItemList th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+}
+
+.ItemList .clickable-row {
+  cursor: pointer;
+}
+
+.ItemList .clickable-row:hover {
+  background-color: #f8f9fa;
+}
+
+.ItemList .low-stock {
+  color: #dc3545;
+  font-weight: 600;
+}
+
